@@ -72,6 +72,11 @@ function limpaResult(){
 	document.getElementById("Network1").innerHTML = "Network: ";
 }
 
+function limpaTudo(){
+    limpa();
+    limpaResult();
+}
+
 function testf(){
 	var ljx = document.getElementById("ljbusca").value;
 	if (ljx == null || ljx == "")
